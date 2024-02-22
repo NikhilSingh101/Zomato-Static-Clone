@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image: url("https://b.zmtcdn.com/web/assets/goodbye/b749f75353fb9c69351fdc69684f15c11675246123.png?output-format=webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar h3{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar div a{
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 55px;
+    width: 240px;
+    margin-left: 550px;
+}
+
+nav h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(90, 19, 19);
+    padding-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav #para{
+    text-align: center;
+    padding: 40px 250px 40px 250px;
+    color: rgb(90, 19, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    outline: 0;
+    border-radius: 10px;
+    margin: 10px 540px 10px 540px;
+    padding: 12px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 71, 71);
+    font-size: 14px;
+}
+
+.location-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.after-nav{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.after-nav h1{
+    font-size: 45px;
+}
+
+.after-nav p{
+    padding: 30px 230px 30px 230px;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(78, 74, 74);
+    line-height: 30px;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 160px 40px 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flag-prop{
+    text-align: center;
+    padding: 15px 185px 30px 185px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: rgb(243, 241, 241);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.footer-box-inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 6px;
+    gap: 7px;
+    border: 0.5px solid rgb(105, 104, 104);
+    border-radius: 6px;
+}
+
+.footer-about{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-right: 55px;
+    padding-bottom: 52px;
+}
+
+.about div{
+    padding-top: 10px;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+.about a{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    gap: 7px;
+    color: rgb(112, 111, 111);
+    font-size: 15px;
+}
+
+.about2{
+    padding-top: 36px;
+}
+
+hr{
+    color: rgb(112, 110, 110);
+}
+
+#footer-para{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(112, 111, 111);
+}
